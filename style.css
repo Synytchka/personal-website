@@ -96,13 +96,16 @@ section {
   width: 60%;
 }
 
-.container.marketing {
-  position: relative;
-  top: 15%;
+#hobbies {
+  height: auto;
 }
 
-#hobbies {
-  height: 105vh;
+h1.hobbies {
+  padding-top: 20%;
+}
+
+.container.marketing {
+  padding-bottom: 7%;
 }
 
 .img-circle {
@@ -128,13 +131,12 @@ section {
 }
 
 #farewell {
-  height: 40vh;
+  height: auto;
 }
 
 footer ul {
   padding-top: 7%;
 }
-
 
 @media (max-width: 480px) {
   .alex-brush-regular {
@@ -143,8 +145,8 @@ footer ul {
 }
 
 @media (max-width: 992px) {
-  #hobbies {
-    height: 190vh;
+  h1.hobbies {
+    padding-top: 35%;
   }
 
   .frame {
@@ -158,4 +160,3 @@ footer ul {
     z-index: 1;
   }
 }
-
